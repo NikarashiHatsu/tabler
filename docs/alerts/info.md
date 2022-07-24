@@ -3,13 +3,13 @@ Return a view of `resources/views/alerts/info.blade.php`. The component represen
 
 ## Usage
 ```html
-<x-shiroyuki-tabler::alerts.info>
+<x-tabler::alerts.info>
     <p>This is an info alert.</p>
-</x-shiroyuki-tabler::alerts.info>
+</x-tabler::alerts.info>
 
-<x-shiroyuki-tabler::alerts.info title="Hey, there's an info for you">
+<x-tabler::alerts.info title="Hey, there's an info for you">
     <p>This is an info alert.</p>
-</x-shiroyuki-tabler::alerts.info>
+</x-tabler::alerts.info>
 ```
 
 ## Parameters

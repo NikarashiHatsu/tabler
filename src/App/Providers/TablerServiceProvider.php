@@ -1,11 +1,11 @@
 <?php
 
-namespace Shiroyuki\Tabler\App\Providers;
+namespace HatsuShiroyuki\Tabler\App\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
-class ShiroyukiTablerServiceProvider extends ServiceProvider {
+class TablerServiceProvider extends ServiceProvider {
     /**
      * Register any application services.
      *
@@ -23,8 +23,8 @@ class ShiroyukiTablerServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'shiroyuki-tabler');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'tabler');
 
-        Blade::componentNamespace('Shiroyuki\\Tabler\\App\\Views\\Components', 'shiroyuki-tabler');
+        Blade::componentNamespace('HatsuShiroyuki\\Tabler\\App\\Views\\Components', 'tabler');
     }
 }

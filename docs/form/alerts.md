@@ -7,9 +7,9 @@ Return instances of:
 
 ## Usage
 ```html
-<x-shiroyuki-tabler::form.alerts />
+<x-tabler::form.alerts />
 
-<x-shiroyuki-tabler::form.alerts
+<x-tabler::form.alerts
     error-title="An error occured!"
     info-title="Hey, there's an info for you"
     success-title="Cool! You're great to go!"

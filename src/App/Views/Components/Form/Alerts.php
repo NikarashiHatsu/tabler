@@ -1,6 +1,6 @@
 <?php
 
-namespace Shiroyuki\Tabler\App\Views\Components\Form;
+namespace HatsuShiroyuki\Tabler\App\Views\Components\Form;
 
 use Illuminate\View\Component;
 
@@ -15,6 +15,6 @@ class Alerts extends Component {
     }
 
     public function render() {
-        return view('shiroyuki-tabler::form.alerts');
+        return view('tabler::form.alerts');
     }
 }

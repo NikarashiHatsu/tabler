@@ -3,13 +3,13 @@ Return a view of `resources/views/alerts/warning.blade.php`. The component repre
 
 ## Usage
 ```html
-<x-shiroyuki-tabler::alerts.warning>
+<x-tabler::alerts.warning>
     <p>This is a warning alert.</p>
-</x-shiroyuki-tabler::alerts.warning>
+</x-tabler::alerts.warning>
 
-<x-shiroyuki-tabler::alerts.warning title="Something is not right...">
+<x-tabler::alerts.warning title="Something is not right...">
     <p>This is a warning alert.</p>
-</x-shiroyuki-tabler::alerts.warning>
+</x-tabler::alerts.warning>
 ```
 
 ## Parameters

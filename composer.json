@@ -1,11 +1,11 @@
 {
-    "name": "shiroyuki/tabler",
+    "name": "hatsu-shiroyuki/tabler",
     "description": "A ready-to-use Tabler form components specifically made for Laravel.",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Shiroyuki\\Tabler\\": "src/"
+            "HatsuShiroyuki\\Tabler\\": "src/"
         }
     },
     "authors": [

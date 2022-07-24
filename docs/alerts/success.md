@@ -3,13 +3,13 @@ Return a view of `resources/views/alerts/success.blade.php`. The component repre
 
 ## Usage
 ```html
-<x-shiroyuki-tabler::alerts.success>
+<x-tabler::alerts.success>
     <p>This is a success alert.</p>
-</x-shiroyuki-tabler::alerts.success>
+</x-tabler::alerts.success>
 
-<x-shiroyuki-tabler::alerts.success title="Cool! You're great to go!">
+<x-tabler::alerts.success title="Cool! You're great to go!">
     <p>This is a success alert.</p>
-</x-shiroyuki-tabler::alerts.success>
+</x-tabler::alerts.success>
 ```
 
 ## Parameters

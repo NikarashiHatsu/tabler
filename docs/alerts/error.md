@@ -3,13 +3,13 @@ Return a view of `resources/views/alerts/error.blade.php`. The component represe
 
 ## Usage
 ```html
-<x-shiroyuki-tabler::alerts.error>
+<x-tabler::alerts.error>
     <p>This is an error alert.</p>
-</x-shiroyuki-tabler::alerts.error>
+</x-tabler::alerts.error>
 
-<x-shiroyuki-tabler::alerts.error title="An error occured">
+<x-tabler::alerts.error title="An error occured">
     <p>This is an error alert.</p>
-</x-shiroyuki-tabler::alerts.error>
+</x-tabler::alerts.error>
 ```
 
 ## Parameters

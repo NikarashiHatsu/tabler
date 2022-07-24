@@ -1,6 +1,6 @@
 <?php
 
-namespace Shiroyuki\Tabler\App\Views\Components\Alerts;
+namespace HatsuShiroyuki\Tabler\App\Views\Components\Alerts;
 
 use Illuminate\View\Component;
 
@@ -13,6 +13,6 @@ class Warning extends Component {
     }
 
     public function render() {
-        return view('shiroyuki-tabler::alerts.warning');
+        return view('tabler::alerts.warning');
     }
 }
