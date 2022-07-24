@@ -1,0 +1,21 @@
+{
+    "name": "shiroyuki/tabler",
+    "description": "A ready-to-use Tabler form components specifically made for Laravel.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shiroyuki\\Tabler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NikarashiHatsu",
+            "email": "yourlovelydev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
