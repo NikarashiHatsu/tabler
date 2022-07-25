@@ -23,8 +23,13 @@ class TablerServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'tabler');
+        /** Publishers */
+        $this->publishes([
+            __DIR__ . '/../../public' => public_path('vendor/tabler'),
+        ], 'shiroyuki-tabler');
 
+        /** Views and component */
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'tabler');
         Blade::componentNamespace('HatsuShiroyuki\\Tabler\\App\\Views\\Components', 'tabler');
     }
 }
