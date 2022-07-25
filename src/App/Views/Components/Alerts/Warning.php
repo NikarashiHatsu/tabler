@@ -12,7 +12,8 @@ class Warning extends Component {
         //
     }
 
-    public function render() {
+    public function render()
+    {
         return view('tabler::alerts.warning');
     }
 }
