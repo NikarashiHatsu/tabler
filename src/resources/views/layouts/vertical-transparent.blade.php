@@ -18,7 +18,7 @@
     <link href="{{ asset('vendor/tabler/css/tabler-flags.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('vendor/tabler/css/tabler-payments.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('vendor/tabler/css/tabler-vendors.min.css') }}" rel="stylesheet" />
-    {{ $css ?? "" }}
+    {{ $head ?? "" }}
 </head>
 
 <body>
